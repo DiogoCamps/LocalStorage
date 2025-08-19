@@ -5,11 +5,11 @@ export default function App() {
   // Estados para os campos do formulário
   const [nome, setNome] = useState("");
   const [sobrenome, setSobrenome] = useState("");
-  const [idade, setIdade] = useState(""); // Esta variável estava faltando no seu código
+  const [idade, setIdade] = useState(""); 
   const [usuarios, setUsuarios] = useState([]);
   const [erro, setErro] = useState("");
   const [busca, setBusca] = useState("");
-  const [editIndex, setEditIndex] = useState(null); // Esta variável também estava faltando
+  const [editIndex, setEditIndex] = useState(null); 
 
   // Efeito para carregar os usuários do localStorage quando o componente é montado
   useEffect(() => {
